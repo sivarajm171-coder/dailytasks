@@ -1,0 +1,232 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: "Montserrat";
+        scroll-behavior: smooth;
+    }
+    
+    .header-section {
+        display: flex;
+        background-color: rgb(41, 37, 37);
+        height: 70px;
+    }
+    
+    .header-section img {
+        display: inline-block;
+        height: 45px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .main-nav-list {
+        display: flex;
+        list-style-type: none;
+        margin-left: 70rem;
+        margin-top: 2px;
+    }
+    
+    .main-nav-list img {
+        margin-left: 20px;
+    }
+    
+    .main-div {
+        display: flex;
+    }
+    
+    .index-section {
+        height: 60rem;
+    }
+    
+    .main-div img {
+        height: 700px;
+        width: 650px;
+    }
+    
+    .content {
+        margin: 40px 0px 0px 50px;
+    }
+    
+    .content-div {
+        display: inline-block;
+        width: 40rem;
+    }
+    
+    .content-div p {
+        margin-top: 2rem;
+        line-height: 1.4rem;
+    }
+    
+    .form-class {
+        margin-top: 6rem;
+    }
+    
+    .form-class input {
+        display: inline-block;
+        width: 38rem;
+        height: 2rem;
+        margin-top: 10px;
+    }
+    
+    .form-class button {
+        display: inline-block;
+        width: 8rem;
+        height: 2rem;
+        border: 0;
+        margin-left: 30rem;
+        margin-top: 10px;
+        background-color: rgb(42, 40, 40);
+        color: snow;
+    }
+    
+    .form-class h2 {
+        font-weight: 500;
+    }
+    
+    .content-div h1 {
+        font-weight: 500;
+    }
+    
+    .para {
+        display: flex;
+        width: 70rem;
+        margin-left: 10rem;
+        gap: 5rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+    
+    .about-div h1 {
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        font-weight: 500;
+        word-spacing: 0.5rem;
+    }
+    
+    .secondary-div {
+        display: flex;
+        background-color: rgb(41, 37, 37);
+        color: snow;
+        height: 22rem;
+    }
+    
+    .secondary-div1 {
+        display: flex;
+        margin-top: 10px;
+        background-color: rgb(41, 37, 37);
+        color: snow;
+        height: 22rem;
+    }
+    
+    .secondary-div2 {
+        display: flex;
+        margin-top: 10px;
+        background-color: rgb(41, 37, 37);
+        color: snow;
+        height: 22rem;
+    }
+    
+    .secondary-div img {
+        height: 22rem;
+        width: 40rem;
+        margin-left: 13rem;
+    }
+    
+    .secondary-div1 img {
+        height: 22rem;
+        width: 40rem;
+        margin-left: 13rem;
+    }
+    
+    .secondary-div2 img {
+        height: 22rem;
+        width: 40rem;
+        margin-left: 13rem;
+    }
+    
+    .product-para {
+        padding-top: 3rem;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        width: 40rem;
+    }
+    
+    .main-content-div h4 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-logo img {
+        opacity: 70%;
+        filter: brightness(0);
+        height: 3rem;
+        margin-left: 4.5rem;
+    }
+    
+    .footer {
+        display: flex;
+    }
+    
+    .footer-list li {
+        list-style-type: none;
+    }
+    
+    .footer-list img {
+        height: 3rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .link-logo {
+        display: flex;
+        margin-left: 67rem;
+        margin-bottom: 2rem;
+    }
+    
+    .form-div {
+        display: flex;
+        margin-top: 3rem;
+        margin-left: 5rem;
+        margin-bottom: 4rem;
+    }
+    
+    .access-para {
+        width: 38rem;
+        line-height: 1.3rem;
+        margin-right: 4rem;
+        margin-top: 1rem;
+    }
+    
+    .form-class2 input {
+        width: 40rem;
+        height: 2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .form-class2 button {
+        margin-left: 34rem;
+        width: 6rem;
+        height: 2rem;
+        border: 0;
+        background-color: rgb(41, 37, 37);
+        color: snow;
+        margin-top: 1rem;
+    }
+    
+    .access-para p {
+        margin-top: 1rem;
+    }
+    
+    .access-para h1,
+    h2 {
+        font-weight: 500;
+    }
+    
+    .secondary-section h1 {
+        font-weight: 500;
+    }

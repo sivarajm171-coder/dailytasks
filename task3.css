@@ -1,0 +1,113 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(117, 19, 93);
+    }
+    
+    html {
+        font-family: "Montserrat";
+    }
+    
+    .main-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 15% 0% 0% 20%;
+    }
+    
+    .cus-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        height: 10px;
+        width: 10px;
+    }
+    
+    .cus-img img {
+        border: 2px solid snow;
+    }
+    
+    .img1 {
+        border-radius: 20px 20px 0px 20px;
+    }
+    
+    .img2 {
+        border-radius: 20px 20px 20px 0px;
+    }
+    
+    .img3 {
+        border-radius: 20px 0px 20px 20px;
+    }
+    
+    .img4 {
+        border-radius: 0px 20px 20px 20px;
+    }
+    
+    .secondary-div {
+        display: inline-block;
+        color: snow;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-top: 50px;
+        padding-right: 40px;
+    }
+    
+    .grid-1 {
+        border-right: 2px solid red;
+        border-bottom: 2px solid blue;
+    }
+    
+    .grid-2 {
+        border-bottom: 2px solid blue;
+    }
+    
+    .grid-3 {
+        border-right: 1.8px solid greenyellow;
+    }
+    
+    .grid-1 p {
+        display: inline-block;
+        padding: 0px 7px;
+    }
+    
+    .grid-2,
+    p,
+    h3 {
+        display: inline-block;
+        padding: 0px 0px 7px 7px;
+    }
+    
+    .grid-3,
+    p,
+    h3 {
+        display: inline-block;
+        padding: 7px 7px 0px 0px;
+    }
+    
+    .grid-4,
+    p,
+    h3 {
+        display: inline-block;
+        padding: 7px 0px 0px 7px;
+    }
+    
+    h1 {
+        font-weight: 600;
+    }
+    
+    .secondary-div p {
+        font-weight: 500;
+    }
+    
+    h3 {
+        font-weight: 600;
+    }
+    
+    .img-div {
+        width: 0;
+    }
